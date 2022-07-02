@@ -1,0 +1,29 @@
+.tabs {
+  border: 2px;
+  border-top: 0;
+  padding: 20px;
+  width: 100%;
+
+  .tabsHeader {
+    border-bottom: 2px;
+    display: flex;
+
+    button {
+      border-color: transparent;
+      border-width: 2px;
+      border-bottom-width: 0;
+      padding: 5px 15px;
+
+      &.activeTabButton {
+        background: darkseagreen;
+        border: 2px solid;
+        border-bottom: 0;
+      }
+    }
+  }
+
+  .tabsContent {
+    border: 2px solid black;
+    padding: 20px;
+  }
+}
